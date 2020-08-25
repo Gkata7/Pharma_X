@@ -3,7 +3,7 @@ html,body {
   overflow-x: hidden;
 }
 p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 /* Navbar */
 .navbar .nav-link {
@@ -70,7 +70,6 @@ p {
   padding-bottom: 10px;
 }
 #pharm-services .pharm-p {
-  font-size: 1.1rem;
   padding-bottom: 8px;
   font-weight: 500;
 }
@@ -121,8 +120,37 @@ p {
 #main-footer {
   background: #333;
   color: #fff;
+  padding: 20px 0;
 }
 #main-footer .social-media i {
   padding: 12px;
   color: var(--primary);
+}
+/*** About.html ***/
+/*** Header Section ***/
+#page-header {
+  height: 260px;
+  background: url('../img/about-us.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  padding-top: 60px;
+}
+.about-img {
+  margin-top: -70px;
+  border-radius: 5px;
+  width: 80%;
+}
+/* Testimonial  */
+#testimonials {
+  background: url('../img/testimonial.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 250px;
+}
+.testimonial-header {
+  font-size: 2rem;
 }

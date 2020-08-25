@@ -1,17 +1,18 @@
 // Current year for copyright
 $('#year').text(new Date().getFullYear());
 
-// carousel slider
+// Carousel slider
 $('.carousel').carousel({
   interval: 6000,
   pause: 'hover'
 });
 
-// Lightbox random photos
+// Lightbox Pop Up
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
   event.preventDefault();
   $(this).ekkoLightbox();
 });
+
 
 // Video Play
 $(function() {
@@ -24,4 +25,11 @@ $(function() {
       $(theModal + ' iframe').attr('src', videoSRC);
     });
   });
+});
+
+// // Testimonial Slider
+$('.slider').slick({
+  infinite: true,
+  slideToShow: 1,
+  slideToScroll: 1
 });
