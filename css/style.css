@@ -1,5 +1,6 @@
 html,body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 p {
   font-size: 1.3rem;
@@ -93,6 +94,7 @@ p {
 }
 #video-player .fa-play {
   background: #fff;
+  color: var(--primary);
   padding: 10px;
   border-radius: 5px;
 }
@@ -100,4 +102,27 @@ p {
 #photo-grid .row .img-fluid {
   width: 100%;
   height: 100%;
+}
+/* Footer Section */
+#top-footer {
+  border-top: 1px solid var(--secondary);
+  background: #F5F5F5;
+}
+#top-footer .row .header5 {
+  color: #000;
+  font-size: 1.5rem;
+}
+#top-footer .row .menu-list li, a{
+  list-style: none;
+  align-content: center;
+  color: var(--secondary);
+  padding: 4px 0;
+}
+#main-footer {
+  background: #333;
+  color: #fff;
+}
+#main-footer .social-media i {
+  padding: 12px;
+  color: var(--primary);
 }
