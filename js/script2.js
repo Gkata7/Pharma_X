@@ -1,4 +1,7 @@
-// // Testimonial Slider
+// Current year for copyright
+$('#year').text(new Date().getFullYear());
+
+// Testimonial Slider
 $('.slider').slick({
   infinite: true,
   slideToShow: 1,
