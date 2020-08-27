@@ -154,6 +154,9 @@ p {
   background-size: cover;
   height: 230px;
 }
+#testimonials p {
+  font-size: 1.3rem;
+}
 .testimonial-header {
   font-size: 2rem;
 }
