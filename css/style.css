@@ -117,6 +117,9 @@ p {
   color: var(--secondary);
   padding: 4px 0;
 }
+#top-footer .form-header {
+  margin-bottom: 20px;
+}
 #main-footer {
   background: #333;
   color: #fff;

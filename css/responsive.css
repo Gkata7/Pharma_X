@@ -40,7 +40,7 @@
     font-size: 16px;
   }
   #pharm-services .btn {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: block;
   }
   #pharm-services .pharm-header {
@@ -49,11 +49,19 @@
   #pharm-services li {
     list-style: none;
   }
-  #top-footer .header5 {
-    text-align: center;
+  #top-footer .form-header {
+    margin-top: 15px;
+    margin-left : 35px;
   }
   #top-footer ul, li, a {
     text-align: center;
+  }
+  #top-footer form {
+    align-items: center;
+    margin-left: 120px;
+  }
+  #top-footer input, .form-btn {
+    width: 80%;
   }
   #top-footer .menu-list {
     margin-bottom: 20px;
@@ -88,5 +96,8 @@
   }
   #icon-box .card-body {
     padding: 10px;
+  }
+  #top-footer .form-header {
+    margin-bottom: 20px;
   }
 }
