@@ -75,7 +75,7 @@
     margin-bottom: 30px;
   }
 }
-@media(min-width: 769px) and (max-width: 1100px){
+@media(min-width: 769px) and (max-width: 1150px){
   html,body {
     overflow-x: hidden;
   }
@@ -88,9 +88,5 @@
   }
   #icon-box .card-body {
     padding: 10px;
-  }
-  #services .card {
-    display: flex;
-    flex-direction: column;
   }
 }
