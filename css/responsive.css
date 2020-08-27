@@ -22,15 +22,15 @@
     font-size: .9rem;
   }
   #showcase .carousel-item .header1 {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 40px;
   }
   #showcase .carousel-item .header2 {
-    font-size: 44px;
+    font-size: 42px;
     margin-bottom: 50px;
   }
   #showcase .carousel-item .header3 {
-    font-size: 44px;
+    font-size: 42px;
     margin-bottom: 50px;
   }
   #showcase .carousel-item .btn {
@@ -38,6 +38,9 @@
   }
   #showcase .carousel-item p {
     font-size: 16px;
+  }
+  #testimonials p {
+    font-size: .9rem;
   }
   #pharm-services .btn {
     margin-bottom: 50px;
